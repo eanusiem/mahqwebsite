@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Contact</title>
+</head>
+<body>
+    <nav>
+        <div class="homebutton">
+            <a href="index.html" aria-label="Home"><i class="fa fa-home"></i></a>
+        </div>
+        <ul class="nav-list-items">
+            <li>
+                <a href="about.html">About Us</a>
+            </li>
+            <li>
+                <a href="memberships.html">Memberships</a>
+            </li>
+            <li>
+                <a href="students.html">Students</a>
+            </li>
+            <li>
+                <a href="education-events.html">Education & Events</a>
+            </li>
+            <li>
+                <a href="resources.html">Resources</a>
+            </li>
+            <li>
+                <a href="accounts.html">Log In/Sign Up</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+<main>
+    <h1>Get in Touch!</h1>
+    <p class="paragraph-left">We welcome your feedback or questions. Please use this form to send us a note – we’ll reply as soon as possible.
+    </p><br>
+    <p class="paragraph-left">
+    As a member directed organization, MAHQ is committed to its members and their needs.
+    </p><br> 
+    <p class="paragraph-left">
+    If you have an idea that can make us better, please share it with us.
+    </p><br>
+    <p class="paragraph-left">
+    If you’re interested in joining a committee to enhance the organization and grow as a healthcare quality professional, your expertise would be appreciated. Let us know here!
+    </p><br>
+    <p class="paragraph-left">
+    If you are seeking further information on the Healthcare and Medicine Academia/Student Outreach Program, or you are seeking a Speaker for a class or student organization event, please share your information and request, and we will reply as soon as possible.
+    </p><br>
+    <h2>Contact Form</h2>
+<form action="https://formspree.io/mzbgaajk" method="POST">
+    <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+        <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Enter your email..." required>
+        <label for="service">Please Select One</label>
+            <select name="services" id="service">
+                <option value="">General Comment/Question</option>
+                <option value="">Order Question</option>
+                <option value="">Log In Issue</option>
+            </select>
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="List the Subject..." required>
+                <label for="subject">Message</label>
+                <textarea name="subject" id="subject" rows="10" cols="10"></textarea>
+                <input type="submit" value="Submit">
+</form> 
+    <div class="buttonright">
+    <button onclick="topFunction()" class="scrollbutton" title="Go to Top">Top</button>
+    </div>
+</main>
+</body>
+<footer>
+      <p>Michigan Association for Healthcare Quality &copy;2020</p>
+</footer>
+</html>

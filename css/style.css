@@ -1,0 +1,359 @@
+/*Phone Size*/
+@media screen and (min-width: 375px){
+
+/*HTML Scroll*/
+html{
+    scroll-behavior: smooth;
+}
+
+/*Body*/
+body{
+  height: 100%;
+  text-align: center;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-image: url(../images/website-background.jpg);
+}
+
+/*Home Button*/
+.homebutton{
+  float: left;
+  width: 30px;
+  padding-top: 8px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+.homebutton a{
+  color: #FFFFFF;
+  font-size: 22px;
+}
+
+/*Navigation*/
+nav{
+  background-color: #006400;
+}
+
+nav a{
+  color: #FFFFFF;
+  font-size: 8px;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: #000000;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+nav li{
+  padding: 10px 10px 10px 10px;
+}
+
+.nav-list-items{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/*Header*/
+.background-video{
+  margin: 0 auto;
+  display: block;
+}
+
+.centered-title{
+  top: 25%;
+  left: 35%;
+  color: #000000;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  transform: translate(-25%, -25%);
+  -webkit-transform: translate(-25%, -25%);
+  text-shadow: 1px 1px 2px #FFFFFF, 0 0 25px #000000;
+}
+
+/*Headings*/
+h1, h2, h3, h4, h5, h6{
+  color: #000000;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Helvetica, 'Arial', sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-shadow: 1px 1px 2px #FFFFFF, 0 0 25px #000000;
+}
+
+.header-left{
+  text-align: left;
+  padding-left: 20px;
+}
+
+.header-right{
+  text-align: right;
+  padding-right: 20px;
+}
+
+.header-blue{
+  color: #0000FF;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.header-red{
+  color: #FF0000;
+  text-align: left;
+  padding-left: 20px;
+}
+
+/*Paragraphs*/
+p{
+  color: #000000;
+  font-size: 18px;
+}
+
+.paragraph-left{
+	text-align: left;
+  padding-left: 20px;
+}
+
+.paragraph-right{
+	text-align: right;
+  padding-right: 20px;
+}
+
+.important-message{
+  color: #FF0000;
+  text-align: left;
+  padding-left: 20px;
+}
+
+/*Gallery*/
+.gallery{
+  min-height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.gallery > img{
+  margin: 30px;
+  width: 300px;
+  border: 5px #006400 solid;
+}
+
+/*Log In/Sign Up*/
+.login-signup-row:after{
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.login-signup-column{
+  width: 100%;
+  float: left;
+  /*padding: 30px;*/
+}
+
+/*Contact Form*/
+form{
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #228B22;
+}
+
+form label{
+  color: #000000;
+  font-size: 20px;
+}
+
+input, select, textarea{
+  width: 260px;
+  border: none;
+  padding: 10px;
+  text-align: left;
+  margin-bottom: 5px;
+  outline-color: #000000;
+}
+
+input[type="submit"]{
+  width: initial;
+  color: #D3D3D3;
+  cursor: pointer;
+  padding: 15px 15px;
+  border-radius: 5px;
+  background-color: #000000;
+  transition: background-color 800ms;
+  -webkit-transition: background-color 800ms;
+}
+
+input[type="submit"]:hover{
+  color: #000000;
+  background-color: #C0C0C0;
+}
+
+/*Scroll Button*/
+.scrollbutton{ 
+  z-index: 99; 
+  border: none; 
+  outline: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #FFFFFF;
+  border-radius: 10px;
+  padding: 9px 9px 9px 9px;
+  background-color: #006400;
+}
+
+.scrollbutton:hover{
+  color: #000000;
+  background-color: #C0C0C0; 
+}
+
+.buttonright{
+  text-align: right;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+/*Footer*/
+footer{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: fixed bottom;
+  background-color: #006400;
+}
+
+footer p{
+  color: #FFFFFF;
+  font-size: 16px;
+  text-align: center;
+}
+}
+
+/*Tablet Size*/
+@media screen and (min-width: 760px){
+
+/*Navigation*/
+nav a{
+  font-size: 16px;
+}
+
+.nav-list-items{
+  justify-content: center;
+}
+
+/*Header*/
+.centered-title{
+  top: 25%;
+  left: 36%;
+  font-size: 30px;
+  transform: translate(-30%, -30%);
+  -webkit-transform: translate(-30%, -30%);
+}
+
+/*Headings*/
+h1, h2, h3, h4, h5, h6{
+  font-size: 30px;
+}
+
+/*Paragraphs*/
+p{
+  font-size: 20px;
+}
+
+/*Contact Form*/
+form{
+  width: 400px;
+  padding-left: 25px;
+  padding-right: 40px;
+}
+
+form label{
+  color: #000000;
+  font-size: 20px;
+}
+
+input, select, textarea{
+  width: 350px;
+}
+
+/*Footer*/
+footer p{
+  font-size: 18px;
+}
+}
+
+/*Desktop Size*/
+@media screen and (min-width: 1050px){
+
+/*Home Button*/
+.homebutton a{
+  font-size: 25px;
+}
+
+/*Header*/
+.centered-title{
+  top: 25%;
+  left: 35%;
+  font-size: 35px;
+  transform: translate(-25%, -25%);
+  -webkit-transform: translate(-25%, -25%);
+}
+
+/*Headings*/
+h1, h2, h3, h4, h5, h6{
+  font-size: 35px;
+}
+
+/*Navigation*/
+nav a{
+  font-size: 18px;
+}
+
+.nav-list-items{
+  justify-content: flex-end;
+}
+
+/*Paragraphs*/
+p{
+  font-size: 22px;
+}
+
+/*Contact Form*/
+form{
+  width: 400px;
+  padding-left: 25px;
+  padding-right: 40px;
+}
+
+input, select, textarea{
+  width: 350px;
+}
+
+/*Footer*/
+footer p{
+  font-size: 20px;
+}
+}
+
+/*Reduced Motion Aceesibility*/
+@media screen and (prefers-reduced-motion: reduce){
+html{
+  scroll-behavior: auto; 
+}
+
+/*Turns off Parallax Image*/
+body{
+  background-attachment: scroll;
+}
+}

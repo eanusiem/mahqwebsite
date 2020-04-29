@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Accounts</title>
+</head>
+<body>
+    <nav>
+        <div class="homebutton">
+            <a href="index.html" aria-label="Home"><i class="fa fa-home"></i></a>
+        </div>
+        <ul class="nav-list-items">
+            <li>
+                <a href="about.html">About Us</a>
+            </li>
+            <li>
+                <a href="memberships.html">Memberships</a>
+            </li>
+            <li>
+                <a href="students.html">Students</a>
+            </li>
+            <li>
+                <a href="education-events.html">Education & Events</a>
+            </li>
+            <li>
+                <a href="resources.html">Resources</a>
+            </li>
+            <li>
+                <a href="accounts.html">Log In/Sign Up</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+<main>
+    <div class="login-signup-row">
+    <div class="login-signup-column">
+    <h1>Log In</h1>
+    <form action="https://formspree.io/mzbgaajk" method="POST">
+    <label for="username">Username or Email address</label>
+        <input type="text" id="username" name="username" placeholder="" required>
+        <label for="password">Password</label>
+            <input type="text" id="password" name="password" placeholder="" required>
+                <input type="submit" value="Submit">
+    </form> 
+    </div>
+    <div class="login-signup-column">
+    <h2>Register</h2>
+    <form action="https://formspree.io/mzbgaajk" method="POST">
+    <label for="firstname">First Name</label>
+        <input type="text" id="firstname" name="firstname" placeholder="" required>
+        <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" name="lastname" placeholder="" required>
+    <label for="emailaddress">Email address</label>
+        <input type="text" id="emailaddress" name="emailaddress" placeholder="" required>
+        <label for="password">Password</label>
+            <input type="text" id="password" name="password" placeholder="" required>
+                <input type="submit" value="Submit">
+    </form>
+    </div>
+    </div>
+    <div class="buttonright">
+    <button onclick="topFunction()" class="scrollbutton" title="Go to Top">Top</button>
+    </div>
+</main>
+</body>
+<footer>
+      <p>Michigan Association for Healthcare Quality &copy;2020</p>
+</footer>
+</html>
