@@ -12,27 +12,80 @@
 </head>
 <body>
     <nav>
-        <div class="homebutton">
+        <div class="home-button">
             <a href="index.html" aria-label="Home"><i class="fa fa-home"></i></a>
         </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+        </div>
         <ul class="nav-list-items">
+            <div class="dropdown-menu">
             <li>
                 <a href="about.html">About Us</a>
-            </li>
+            </li>    
+            <div class="dropdown-content">
+                <a href="about.html">About Us/MAHQ</a>
+                <a href="about.html">Board of Directors</a>
+                <a href="about.html">Student Ambassadors</a>
+                <a href="about.html">Commitee Chairs</a>
+            </div>
+            </div>
+            <div class="dropdown-menu">
             <li>
-                <a href="memberships.html">Memberships</a>
+                <a href="membership.html">Membership</a>
             </li>
+            <div class="dropdown-content">
+                <a href="membership.html">Become a Member</a>
+                <a href="membership.html">Membership Benefits</a>
+                <a href="membership.html">Volunteer</a>
+                <a href="membership.html">Commitees</a>
+            </div>
+            </div>
+            <div class="dropdown-menu">
             <li>
                 <a href="students.html">Students</a>
             </li>
+            <div class="dropdown-content">
+                <a href="students.html">Student Membership</a>
+                <a href="students.html">Student Membership Benefits</a>
+                <a href="students.html">Student Ambassador Program</a>
+                <a href="students.html">Student Ambassador On-Boarding</a>
+            </div>
+            </div>
+            <div class="dropdown-menu">
             <li>
-                <a href="education-events.html">Education & Events</a>
+                <a href="impact.html">IMPACT</a>
             </li>
+            <div class="dropdown-content">
+                <a href="impact.html">Journal</a>
+                <a href="impact.html">Publications</a>
+                <a href="impact.html">How to Become Published</a>
+                <a href="impact.html">Publication Submissions</a>
+            </div>
+            </div>
+            <div class="dropdown-menu">
+            <li>
+                <a href="continuing-education.html">Continuing Education</a>
+            </li>
+            <div class="dropdown-content">
+                <a href="continuing-education.html">Earning ECU</a>
+                <a href="continuing-education.html">Webinar</a>
+                <a href="continuing-education.html">Upcoming Events Calendar</a>
+            </div>
+            </div>
+            <div class="dropdown-menu">
+            <li>
+                <a href="credentials.html">Credentials</a>
+            </li>
+            <div class="dropdown-content">
+                <a href="credentials.html">CPHQ Credentials</a>
+                <a href="credentials.html">Earning/Maintaining</a>
+                <a href="credentials.html">Applying CPHQ</a>
+                <a href="credentials.html">CPHQ Cafe</a>
+            </div>
+            </div>
             <li>
                 <a href="resources.html">Resources</a>
-            </li>
-            <li>
-                <a href="accounts.html">Log In/Sign Up</a>
             </li>
             <li>
                 <a href="contact.html">Contact Us</a>
@@ -41,21 +94,26 @@
     </nav>
 <main>
     <h1>Get in Touch!</h1>
-    <p class="paragraph-left">We welcome your feedback or questions. Please use this form to send us a note – we’ll reply as soon as possible.
+    <p>
+    We welcome your feedback or questions. Please use this form to send us a note – we’ll reply as soon as possible.
     </p><br>
-    <p class="paragraph-left">
+    <p>
     As a member directed organization, MAHQ is committed to its members and their needs.
     </p><br> 
-    <p class="paragraph-left">
+    <p>
     If you have an idea that can make us better, please share it with us.
     </p><br>
-    <p class="paragraph-left">
+    <p>
     If you’re interested in joining a committee to enhance the organization and grow as a healthcare quality professional, your expertise would be appreciated. Let us know here!
     </p><br>
-    <p class="paragraph-left">
+    <p>
     If you are seeking further information on the Healthcare and Medicine Academia/Student Outreach Program, or you are seeking a Speaker for a class or student organization event, please share your information and request, and we will reply as soon as possible.
-    </p><br>
-    <h2>Contact Form</h2>
+    </p>
+    <h2>Social Media Links</h2>
+    <p>
+    The links for our Facebook, Instagram, Youtube, and LinkedIn accounts will be located here.
+    </p>
+    <h3>Contact Form</h3>
 <form action="https://formspree.io/mzbgaajk" method="POST">
     <label for="name">Name</label>
         <input type="text" id="name" name="name" placeholder="Enter your name..." required>
@@ -73,12 +131,13 @@
                 <textarea name="subject" id="subject" rows="10" cols="10"></textarea>
                 <input type="submit" value="Submit">
 </form> 
-    <div class="buttonright">
-    <button onclick="topFunction()" class="scrollbutton" title="Go to Top">Top</button>
+    <div class="button-right">
+        <button onclick="topFunction()" class="scroll-button" title="Go to Top">Top</button>
     </div>
 </main>
 </body>
+<img class="mahq-logo" src="images/mahq-logo.jpg">
 <footer>
-      <p>Michigan Association for Healthcare Quality &copy;2020</p>
+    <p>Copyright of Michigan Association for Healthcare Quality &copy;2020</p>
 </footer>
 </html>
