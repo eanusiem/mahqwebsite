@@ -141,9 +141,9 @@ nav li{
 }
 
 /*Headings*/
-h1, h2, h3, h4{
+h1, h2, h3, h4, h5, h6{
   color: #000000;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   font-family: Helvetica, 'Arial', sans-serif;
   text-align: center;
@@ -156,6 +156,26 @@ h1, h2, h3, h4{
 p{
   color: #000000;
   font-size: 18px;
+}
+
+/*Example Images*/
+.examples{
+  width: 800px;
+}
+
+/*Icons and Headshots*/
+.icons-and-headshots{
+  width: 400px;
+}
+
+/*Image Grid*/
+.grid-container{
+  display: grid;
+  grid-row-gap: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 /*Contact Form*/
@@ -275,7 +295,7 @@ nav li{
 }
 
 /*Headings*/
-h1, h2, h3, h4{
+h1, h2, h3, h4, h5, h6{
   font-size: 30px;
 }
 
@@ -312,14 +332,14 @@ footer p{
 /*Header*/
 .background-video-title{
   top: 25%;
-  left: 35%;
+  left: 42%;
   font-size: 35px;
   transform: translate(-25%, -25%);
   -webkit-transform: translate(-25%, -25%);
 }
 
 /*Headings*/
-h1, h2, h3, h4{
+h1, h2, h3, h4, h5, h6{
   font-size: 35px;
 }
 
