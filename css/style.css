@@ -168,15 +168,27 @@ p{
   width: 400px;
 }
 
+/*Icons and Headshots Paragraph Text*/
+.icons-and-headshots-text{
+  font-weight: none;
+  text-shadow: none;
+  padding-top: 30px;
+  padding-right: 30px;
+}
+
 /*Image Grid*/
 .grid-container{
   display: grid;
-  grid-row-gap: 40px;
-  padding-left: 50px;
-  padding-right: 50px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  padding-left: 300px;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
+
+.grid-container > img {
+  padding-bottom: 30px;
+}
+
+
 
 /*Contact Form*/
 form{
