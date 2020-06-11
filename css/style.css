@@ -184,7 +184,7 @@ p{
   grid-template-columns: repeat(2, 1fr);
 }
 
-.grid-container > img {
+.grid-container > img{
   padding-bottom: 30px;
 }
 
@@ -382,7 +382,7 @@ p{
 
 /*Image Grid*/
 .grid-container{
-  padding-left: 400px;
+  padding-left: 250px;
 }
 
 
@@ -455,7 +455,7 @@ p{
 
 /*Image Grid*/
 .grid-container{
-  padding-left: 400px;
+  padding-left: 250px;
 }
 
 /*Contact Form*/
