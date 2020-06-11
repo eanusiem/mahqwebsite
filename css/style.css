@@ -160,26 +160,26 @@ p{
 
 /*Example Images*/
 .examples{
-  width: 800px;
+  width: 500px;
 }
 
 /*Icons and Headshots*/
 .icons-and-headshots{
-  width: 400px;
+  width: 300px;
 }
 
 /*Icons and Headshots Paragraph Text*/
 .icons-and-headshots-text{
-  font-weight: none;
-  text-shadow: none;
-  padding-top: 30px;
-  padding-right: 30px;
+ text-align: left; 
+ font-weight: none;
+ text-shadow: none;
+ padding: 30px 30px 30px 30px;
 }
 
 /*Image Grid*/
 .grid-container{
   display: grid;
-  padding-left: 300px;
+  padding-left: 30px;
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: repeat(2, 1fr);
 }
@@ -188,7 +188,61 @@ p{
   padding-bottom: 30px;
 }
 
+/*Online Store*/
+.pricing{
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 500px;
+  align-items: center;
+  justify-content: center;
+}
 
+.card{
+  margin: 12px;
+  background: #fff;
+  flex-basis: 400px;
+  border-radius: 7px;
+  padding: 0 0 50px 0;
+}
+
+.card > header{
+  padding: 20px 0;
+  background: #263926;
+  border: 2px solid #45ADAD;
+  border-radius: 7px 7px 0 0;
+}
+
+.card > ul{
+  list-style: none;
+  padding: 0;
+}
+
+.card > ul li{
+  width: 90%;
+  margin: 20px auto;
+}
+
+.card button{
+  border: 0;
+  width: 90%;
+  height: 40px;
+  color: white;
+  font-size: 1em;
+  margin-left: 12px;
+  border-radius: 7px;
+  background: #263926;
+}
+
+.card h3{
+  color: white;
+  font-size: 4em;
+  text-align: center;
+}
+
+.card_big{
+  -webkit-transform: initial;
+          transform: initial;
+}
 
 /*Contact Form*/
 form{
@@ -316,6 +370,22 @@ p{
   font-size: 20px;
 }
 
+/*Example Images*/
+.examples{
+  width: 600px;
+}
+
+/*Icons and Headshots*/
+.icons-and-headshots{
+  width: 500px;
+}
+
+/*Image Grid*/
+.grid-container{
+  padding-left: 400px;
+}
+
+
 /*Contact Form*/
 form{
   width: 400px;
@@ -371,6 +441,21 @@ nav li{
 /*Paragraphs*/
 p{
   font-size: 22px;
+}
+
+/*Example Images*/
+.examples{
+  width: 800px;
+}
+
+/*Icons and Headshots*/
+.icons-and-headshots{
+  width: 300px;
+}
+
+/*Image Grid*/
+.grid-container{
+  padding-left: 400px;
 }
 
 /*Contact Form*/
