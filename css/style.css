@@ -184,8 +184,22 @@ p{
   grid-template-columns: repeat(2, 1fr);
 }
 
-.grid-container > img{
+.grid-container img{
   padding-bottom: 30px;
+}
+
+/*Social Media Links*/
+.social-media{ 
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.social-media img{
+  margin: 50px;
+  width: 150px;
+  min-height: 150px;
 }
 
 /*Online Store*/
@@ -385,6 +399,12 @@ p{
   padding-left: 250px;
 }
 
+/*Social Media Links*/
+.social-media img{
+  width: 200px;
+  min-height: 200px;
+}
+
 
 /*Contact Form*/
 form{
@@ -457,6 +477,13 @@ p{
 .grid-container{
   padding-left: 250px;
 }
+
+/*Social Media Links*/
+.social-media img{
+  width: 240px;
+  min-height: 240px;
+}
+
 
 /*Contact Form*/
 form{
