@@ -3,7 +3,7 @@
 
 /*HTML Scroll*/
 html{
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /*Body*/
@@ -186,6 +186,45 @@ p{
 
 .grid-container img{
   padding-bottom: 30px;
+}
+
+/*IMPACT Journal*/
+.journal{
+  width: 500px;
+  padding-top: 50px;
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;  
+}
+
+.journal img{
+    width: 300px;
+}
+
+.caption{
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.journal-button{
+  z-index: 99; 
+  border: none; 
+  outline: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 9px 9px 9px 9px;
+  background-color: #263926;
+}
+
+.journal-button:hover{
+  color: #000000;
+  background-color: #C0C0C0; 
 }
 
 /*Social Media Links*/
@@ -399,6 +438,11 @@ p{
   padding-left: 250px;
 }
 
+.journal-button:hover{
+  color: #000000;
+  background-color: #C0C0C0; 
+}
+
 /*Social Media Links*/
 .social-media img{
   width: 200px;
@@ -483,7 +527,6 @@ p{
   width: 240px;
   min-height: 240px;
 }
-
 
 /*Contact Form*/
 form{
