@@ -1,15 +1,7 @@
-// Scroll Button
-mainbutton = document.querySelector(".scrollbutton");
-window.onscroll = function() {scrollFunction()};
-function scrollFunction(){
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
-    mainbutton.style.display = "block";
-	} else {
-    mybutton.style.display = "none";
-	}
+// Log In Button
+var modal = document.getElementById('id01');
+window.onclick = function(event){
+    if (event.target == modal){
+        modal.style.display = "none";
+    }
 }
-function topFunction(){
-  document.body.scrollTop = 0; 
-  document.documentElement.scrollTop = 0; 
-}
-

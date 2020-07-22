@@ -16,6 +16,23 @@
         <div class="home-button">
             <a href="index.html" aria-label="Home"><i class="fa fa-home"></i></a>
         </div>
+        <button class = "login-button" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+        <div id="id01" class="modal">
+            <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="close-button">
+                <span class="close" onclick="document.getElementById('id01').style.display='none'" title="Close Modal">&times;</span>
+            </div>
+            <label for="username"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="username" required>
+            <label for="password"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="password" required>
+            <button type="submit">Login</button>
+            <a class="reset-link" href="#">Forgot password?</a>
+            <div class="cancel-reset">
+                <button class="cancel-button" onclick="document.getElementById('id01').style.display='none'" >Cancel</button>
+            </div>
+            </form>
+        </div>
         <div class="search-bar">
             <input type="text" placeholder="Search...">
         </div>
@@ -126,9 +143,9 @@
     </p>
     </div>
     <h3>Contact Form</h3>
-<form action="https://formspree.io/mzbgaajk" method="POST">
-    <label for="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+    <form action="https://formspree.io/mzbgaajk" method="POST">
+        <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name..." required>
         <label for="email">Email</label>
             <input type="text" id="email" name="email" placeholder="Enter your email..." required>
         <label for="service">Please Select One</label>
@@ -142,10 +159,7 @@
                 <label for="subject">Message</label>
                 <textarea name="subject" id="subject" rows="10" cols="10"></textarea>
                 <input type="submit" value="Submit">
-</form> 
-    <div class="button-right">
-        <button onclick="topFunction()" class="scroll-button" title="Go to Top">Top</button>
-    </div>
+    </form> 
 </main>
 </body>
 <img class="mahq-logo" src="images/mahq-logo.jpg">

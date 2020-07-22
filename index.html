@@ -16,6 +16,23 @@
         <div class="home-button">
             <a href="index.html" aria-label="Home"><i class="fa fa-home"></i></a>
         </div>
+        <button class = "login-button" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+        <div id="id01" class="modal">
+            <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="close-button">
+                <span class="close" onclick="document.getElementById('id01').style.display='none'" title="Close Modal">&times;</span>
+            </div>
+            <label for="username"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="username" required>
+            <label for="password"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="password" required>
+            <button type="submit">Login</button>
+            <a class="reset-link" href="#">Forgot password?</a>
+            <div class="cancel-reset">
+                <button class="cancel-button" onclick="document.getElementById('id01').style.display='none'" >Cancel</button>
+            </div>
+            </form>
+        </div>
         <div class="search-bar">
             <input type="text" placeholder="Search...">
         </div>
@@ -116,9 +133,6 @@
     The calendar will have multiple options for viewing upcoming events such as a list and calendar by month.
     </p><br>
     <img class="examples" src="images/calendar-example.jpg">
-	<div class="button-right">
-        <button onclick="topFunction()" class="scroll-button" title="Go to Top">Top</button>
-    </div>
 </main>
 </body>
 <img class="mahq-logo" src="images/mahq-logo.jpg">

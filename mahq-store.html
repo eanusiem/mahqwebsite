@@ -16,6 +16,23 @@
         <div class="home-button">
             <a href="index.html" aria-label="Home"><i class="fa fa-home"></i></a>
         </div>
+        <button class = "login-button" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+        <div id="id01" class="modal">
+            <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="close-button">
+                <span class="close" onclick="document.getElementById('id01').style.display='none'" title="Close Modal">&times;</span>
+            </div>
+            <label for="username"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="username" required>
+            <label for="password"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="password" required>
+            <button type="submit">Login</button>
+            <a class="reset-link" href="#">Forgot password?</a>
+            <div class="cancel-reset">
+                <button class="cancel-button" onclick="document.getElementById('id01').style.display='none'" >Cancel</button>
+            </div>
+            </form>
+        </div>
         <div class="search-bar">
             <input type="text" placeholder="Search...">
         </div>
@@ -104,16 +121,16 @@
             <li>The best water bottle for quenching you thirst.</li>
             <li>Quench your thirst in style!</li>
             </ul>
-            <button>Buy</button>
+            <button class="card-button">Buy</button>
         </div>
-        <div class="card card_big">
+        <div class="card card-big">
             <header><h3>$35</h3></header>
             <ul>
             <li>MAHQ T-Shirt</li>
             <li>The best shirt for remaining cool in style.</li>
             <li>Perfect for working out or just chilling.</li>
             </ul>
-            <button>Buy</button>
+            <button class="card-button">Buy</button>
         </div>
         <div class="card">
             <header><h3>$50</h3></header>
@@ -122,11 +139,9 @@
             <li>The only sweatshirt you will need to survive the winter.</li>
             <li>Legends have it that this sweatshirt survived the Ice Age.</li>
             </ul>
-        <button>Buy</button>
+        <button class="card-button">Buy</button>
         </div>
         </div>
-    <button onclick="topFunction()" class="scroll-button" title="Go to Top">Top</button>
-    </div>
 </main>
 </body>
 <img class="mahq-logo" src="images/mahq-logo.jpg">
