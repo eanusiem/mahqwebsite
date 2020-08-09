@@ -66,7 +66,7 @@ body{
   width: 80%;
   border: 1px #A9A9A9;
   margin: 5% auto 15% auto; 
-  background-color: #FF0000;
+  background-color: #C0C0C0;
 }
 
 .close{
@@ -91,6 +91,7 @@ input[type=text], input[type=password]{
   display: inline-block;
   border: 1px solid #CDCDCD;
 }
+
 
 button{
   width: 100%;
@@ -127,7 +128,6 @@ button:hover{
 .cancel-button{
   width: 100%;
   padding: 8px 8px;
-  background-color: #FF0000;
 }
 
 .animate{
@@ -362,7 +362,7 @@ p{
 
 .card{
   margin: 12px;
-  background: #fff;
+  background: #ffffff;
   flex-basis: 400px;
   border-radius: 7px;
   padding: 0 0 50px 0;
@@ -389,7 +389,7 @@ p{
   border: 0;
   width: 90%;
   height: 40px;
-  color: white;
+  color: #FFFFFF;
   font-size: 1em;
   margin-left: 12px;
   border-radius: 7px;
@@ -397,7 +397,7 @@ p{
 }
 
 .card h3{
-  color: white;
+  color: #FFFFFF;
   font-size: 4em;
   text-align: center;
 }
