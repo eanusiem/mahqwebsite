@@ -265,6 +265,7 @@ p{
 /*Example Images*/
 .examples{
   width: 500px;
+  padding-bottom: 30px;
 }
 
 /*Icons and Headshots*/
